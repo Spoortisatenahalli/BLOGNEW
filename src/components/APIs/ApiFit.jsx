@@ -8,10 +8,10 @@ const ApiFit = (props) => {
             "name": "New York Post"
             },
             "author": "The Sun",
-            "title": "Woman's life is saved after she spotted something unusual in mirror - New York Post ",
+            "title": "Fitness is defined as the quality or state of being fit and healthy ",
             "description": "A woman has recalled the moment she spotted something unusual in the mirror which ended up saving her life.",
             "url": "https://nypost.com/2022/05/24/womans-life-is-saved-after-she-spotted-something-unusual-in-mirror/",
-            "urlToImage": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/06/944264-The-10-Best-Home-Gym-Equipment-Items-to-Own-Rogue-Rubber-Coated-Kettlebell.png?w=315&h=840",
+            "urlToImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Fitness_Model_Britt_2007.JPG/330px-Fitness_Model_Britt_2007.JPG",
             "publishedAt": "2022-05-24T23:57:00Z",
             "content": "A woman has recalled the moment she spotted something unusual in the mirror which ended up saving her life. \r\nSusan Hunter-Dabson was blowdrying her hair and noticed something odd when she lifted her… [+2971 chars]"
             },

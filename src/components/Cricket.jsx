@@ -1,7 +1,7 @@
 import React,{ useContext } from 'react'
-import {cric} from './APIs/ApiCric'
+import {cricket} from './APIs/ApiCric'
 const Cricket = () => {
-    const [dataCric, setDataCric] = useContext(cric);
+    const [dataCric, setDataCric] = useContext(cricket);
     return (
       <>
       <div className="contentPage">

@@ -1,25 +1,14 @@
 import React, { createContext, useState } from "react";
-export const cric = createContext();
+export const cricket = createContext();
 const ApiCric = (props) => {
   const [dataCric, setDataCric] = useState([
-    
+  
+
+  
     {
     "source": {
     "id": null,
-    "name": "Cricbuzz"
-    },
-    "author": null,
-    "title": "Kohli of 2018 vs 2022: What's changed with his technique | Cricbuzz.com - Cricbuzz",
-    "description": "An illustrative and comparative assessment of what's changed in Virat Kohli's game and what could be going wrong for him in the last two and a half years, a period during which he hasn't hit an international hundred",
-    "url": "https://www.cricbuzz.com/cricket-news/122375/kohli-of-2018-vs-2022-whats-changed-with-his-technique-cricbuzzcom",
-    "urlToImage": "//m.cricbuzz.com/a/img/v1/600x400/i1/c234836/mental-fatigue-or-shot-selection-r-prasanna-reckons-neither-is-primarily-responsible-for-kohlis-sharp-decline-in-returns.jpg",
-    "publishedAt": "2022-05-25T10:05:10Z",
-    "content": null
-    },
-    {
-    "source": {
-    "id": null,
-    "name": "International Cricket Council"
+    "name": "International Cricket "
     },
     "author": "ICC",
     "title": "Two new teams in next edition of ICC Women's Championship - International Cricket Council",
@@ -29,6 +18,26 @@ const ApiCric = (props) => {
     "publishedAt": "2022-05-25T10:00:17Z",
     "content": "The next edition of the ICC Women's Championship was announced by the ICC on Wednesday, 25 May, with two new teams added to the mix, making it a 10-team league.After the success of the ICC Womens Cha… [+4946 chars]"
     },
+
+    {
+      "source": {
+      "id": null,
+      "name": "Cricbuzz"
+      },
+      
+      "author": null,
+      "title": "Kohli of 2018 vs 2022: What's changed with his technique | Cricbuzz.com - Cricbuzz",
+      "description": "An illustrative and comparative assessment of what's changed in Virat Kohli's game and what could be going wrong for him in the last two and a half years, a period during which he hasn't hit an international hundred",
+      "url": "https://www.cricbuzz.com/cricket-news/122375/kohli-of-2018-vs-2022-whats-changed-with-his-technique-cricbuzzcom",
+      "urlToImage": "//m.cricbuzz.com/a/img/v1/600x400/i1/c234836/mental-fatigue-or-shot-selection-r-prasanna-reckons-neither-is-primarily-responsible-for-kohlis-sharp-decline-in-returns.jpg",
+      "publishedAt": "2022-05-25T10:05:10Z",
+      "content": null
+      },
+
+
+
+
+
     {
     "source": {
     "id": null,
@@ -42,19 +51,7 @@ const ApiCric = (props) => {
     "publishedAt": "2022-05-25T09:27:34Z",
     "content": "Former Indian cricketer Irfan Pathan reckons all the three teams placed above Royal Challengers Bangalore in the points table will be wary of the Faf du Plessis-led side in the IPL 2022 playoffs. Rid… [+1406 chars]"
     },
-    {
-    "source": {
-    "id": null,
-    "name": "Cricbuzz"
-    },
-    "author": null,
-    "title": "Behind the scenes, Deepak Hooda undergoes batting transformation | Cricbuzz.com - Cricbuzz - Cricbuzz",
-    "description": "Batting at 3/4 this season, Deepak Hooda has been amongst the best performers for Lucknow Super Giants in their maiden season",
-    "url": "https://www.cricbuzz.com/cricket-news/122376/behind-the-scenes-deepak-hooda-undergoes-batting-transformation-cricbuzzcom",
-    "urlToImage": "//m.cricbuzz.com/a/img/v1/600x400/i1/c234833/hooda-has-scored-over-400-runs-this-season-for-lsg.jpg",
-    "publishedAt": "2022-05-25T09:16:04Z",
-    "content": "The year 2021 was not the best of years for Deepak Hooda. Early in January, Hooda got into a verbal altercation with Baroda captain Krunal Pandya, which led to his suspension from domestic cricket fo… [+10565 chars]"
-    },
+    
     {
     "source": {
     "id": null,
@@ -107,6 +104,22 @@ const ApiCric = (props) => {
     "publishedAt": "2022-05-25T08:15:49Z",
     "content": "There is none like the great MS Dhoni. Even two years after retiring from international cricket, Dhoni is one of the fittest cricketers you would come across. He can still beat the best youngsters cr… [+2157 chars]"
     },
+
+
+
+    {
+      "source": {
+      "id": null,
+      "name": "Cricbuzz"
+      },
+      "author": null,
+      "title": "Behind the scenes, Deepak Hooda undergoes batting transformation | Cricbuzz.com - Cricbuzz - Cricbuzz",
+      "description": "Batting at 3/4 this season, Deepak Hooda has been amongst the best performers for Lucknow Super Giants in their maiden season",
+      "url": "https://www.cricbuzz.com/cricket-news/122376/behind-the-scenes-deepak-hooda-undergoes-batting-transformation-cricbuzzcom",
+      "urlToImage": "//m.cricbuzz.com/a/img/v1/600x400/i1/c234833/hooda-has-scored-over-400-runs-this-season-for-lsg.jpg",
+      "publishedAt": "2022-05-25T09:16:04Z",
+      "content": "The year 2021 was not the best of years for Deepak Hooda. Early in January, Hooda got into a verbal altercation with Baroda captain Krunal Pandya, which led to his suspension from domestic cricket fo… [+10565 chars]"
+      },
     {
     "source": {
     "id": null,
@@ -198,25 +211,35 @@ const ApiCric = (props) => {
     "publishedAt": "2022-05-25T04:32:40Z",
     "content": "Indian Team for SA T20 – IND vs SA Live Updates: India’s IPL 2022 stars may be fit and going all guns blazing at the IPL 2022 but BCCI wants them to prove fitness. The Indian board has asked the KL R… [+3961 chars]"
     },
-    {
-    "source": {
-    "id": null,
-    "name": "India.com"
-    },
-    "author": null,
-    "title": "Natasa Stankovic to Julia Barry: TOP WAGs from IPL finalist Gujarat Titans - Zee News",
-    "description": "Hardik Pandya's Gujarat Titans have managed to enter the IPL 2022 final on their T20 league debut. The Titans players have been supported by their Wives and Girlfriends (WAGs) throughout the tournament so far. In these collection of pictures, we take a look a…",
-    "url": "https://zeenews.india.com/photos/sports/natasa-stankovic-to-julia-barry-top-wags-from-ipl-2022-finalist-gujarat-titans-in-pics-2467025",
-    "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2022/05/25/1046328-gtwags.jpg",
-    "publishedAt": "2022-05-25T04:27:31Z",
-    "content": null
-    },
+    
+  
+
+
+
+
+
+   
+      {
+        
+          "source": {
+            "id": null,
+            "name": "India.com"
+            },
+            "author": null,
+            "title": "Hardik Pandya is a pro player of India: TOP WAGs from IPL finalist Gujarat Titans - Zee News",
+            "description": "Hardik Pandya's Gujarat Titans have managed to enter the IPL 2022 final on their T20 league debut. The Titans players have been supported by their Wives and Girlfriends (WAGs) throughout the tournament so far. In these collection of pictures, we take a look a…",
+            "url": "https://zeenews.india.com/photos/sports/natasa-stankovic-to-julia-barry-top-wags-from-ipl-2022-finalist-gujarat-titans-in-pics-2467025",
+            "urlToImage": "https://english.cdn.zeenews.com/sites/default/files/2022/05/25/1046328-gtwags.jpg",
+            "publishedAt": "2022-05-25T04:27:31Z",
+            "content": null
+            },
+      
 ]);
 return (
   <div>
-    <cric.Provider value={[dataCric, setDataCric]}>
+    <cricket.Provider value={[dataCric, setDataCric]}>
       {props.children}
-    </cric.Provider>
+    </cricket.Provider>
   </div>
 );
 };

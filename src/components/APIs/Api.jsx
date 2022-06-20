@@ -1,42 +1,42 @@
 import React, { createContext, useState } from 'react'
-export const happy=createContext()
+export const myname=createContext()
 const Api = (props) => {
 
     const [data,setData]=useState([
     {
-      "Title" : " Tejasswi Prakash beats Katrina Kaif, Deepika Padukone and other celebs to be the actress to achieve this rare Instagram feat",
+      "Title" : " Deepika Padukone, Sonam Kapoor, Urfi Javed and more: Divas who nailed the side boob trend like a PRO",
       "CategoryName"  : "Bollywood",
       "PublishedDate" : "Januaury 15 2022",
-      "ImageAsset"    : " https://st1.bollywoodlife.com/wp-content/uploads/2022/05/Prithviraj_To_Be_Shown_To_Amit_Shah.jpg?impolicy=Medium_Widthonly&w=303",
+      "ImageAsset"    : "https://st1.bollywoodlife.com/wp-content/uploads/2022/06/DEEPIKAS-1.png",
       "BlogContent"   : "Tejasswi Prakash beat popular actresses such as Shehnaaz Gill, Katrina Kaif, Deepika Padukone and others to achieve a rare Instagram feat. Check out what is it all about below..."
   },
   {
-    "Title" : " Nisha Rawal talks about raising son Kavish alone after separation with Karan Mehra; says 'I feel privileged'",
+    "Title" : " Bobby Deol's son Aryaman has turned 21 today and the doting father took to Instagram to share an adorable picture to wish him on his special day. Netizens are blown away by Aryaman's handsome looks and couldn't stop gushing about him.'",
     "CategoryName"  : "Bollywood",
     "PublishedDate" : "Januaury 14 2022",
-    "ImageAsset"    : "https://static.indiatvnews.com/ins-web/images/anushka-3082-1541034692.jpg",
-    "BlogContent"   : "Lock Upp former contestant Nisha Rawal who is a single mother to a 5-year-old son Kavish spoke about her struggle and concerns of raising him alone post-separation from Karan Mehra."
+    "ImageAsset"    : "https://st1.bollywoodlife.com/wp-content/uploads/2022/06/iambobbydeol_287946881_689669088795078_6144923125803546652_n.jpg",
+    "BlogContent"   : "Bobby Deol's son Aryaman has turned 21 today and the doting father took to Instagram to share an adorable picture to wish him on his special day. Netizens are blown away by Aryaman's handsome looks and couldn't stop gushing about him.."
 },
 {
-  "Title" : " Swaran Ghar: Actresses who REJECTED Sangita Ghosh’s role in the show",
+  "Title" : " After Shakti Arora in Kundali Bhagya, fans are eagerly waiting for a comeback of these hit TV stars",
   "CategoryName"  : "Bollywood",
   "PublishedDate" : "Januaury 14 2022",
-  "ImageAsset"    : "https://st1.bollywoodlife.com/wp-content/uploads/2022/05/Swaran-Ghar1-1.png?impolicy=Medium_Widthonly&w=303",
-  "BlogContent"   : "The Hindi remake of Tamil blockbuster movie ‘Kaithi’ starring Ajay Devg"
+  "ImageAsset"    : "https://st1.bollywoodlife.com/wp-content/uploads/2022/06/Aashiesh-comeback.jpg",
+  "BlogContent"   : "Shakti Arora is all set to make his comeback with Kundali Bhayga and here's a list of other actors fans would love to see on TV again..."
 },
 {
-  "Title" : " Prithviraj: Akshay Kumar to show his historical epic not to Narendra Modi, but this famous politician – any guesses?",
+  "Title" : " Sonam Kapoor's hubby Anand Ahuja is right now a darling to her and during this phase one needs all the extra love and attention, especially from her hubby and the girl is getting that.",
   "CategoryName"  : "Bollywood",
   "PublishedDate" : "Januaury 14 2022",
-  "ImageAsset"    : "https://st1.bollywoodlife.com/wp-content/uploads/2022/05/Teaser-3.png?impolicy=Medium_Widthonly&w=303",
-  "BlogContent"   : "Prithviraj stars Akshay Kumar as the eponymous warrior-king, along with Sanjay Dutt, Sonu Sood, Ashutosh Rana, Manav Vij and Sakshi Tanwar, and introduces ex-Miss World Manushi Chhillar. It's directed by Dr. Chandraprakash Dwivedi,."
+  "ImageAsset"    : "https://st1.bollywoodlife.com/wp-content/uploads/2022/06/MicrosoftTeams-image-4-10.jpg",
+  "BlogContent"   : "Sonam Kapoor's hubby Anand Ahuja is right now a darling to her and during this phase one needs all the extra love and attention, especially from her hubby and the girl is getting that.."
 },
 {
-  "Title" : " Jug Jug Jeeyo trailer launch: Varun Dhawan silences journalist who questions Kiara Advani why she isn't married with this SAVAGE reply",
+  "Title" : " Trending TV News Today: Top actress' tantrums on Khatron Ke Khiladi 12; Kundali Bhagya's Shraddha Arya on Dheeraj Dhoopar's exit and more",
   "CategoryName"  : "Bollywood",
   "PublishedDate" : "Januaury 14 2022",
-  "ImageAsset"    : "https://st1.bollywoodlife.com/wp-content/uploads/2022/05/Varun_Dhawan_Schools_Journalist_For_Kiara_Advani_At_Jug_jugg_Jeeyo_Trailer_Launch.jpg?impolicy=Medium_Widthonly&w=400",
-  "BlogContent"   : "The Kiara Advani and Varun Dhawan starrer"
+  "ImageAsset"    : "https://st1.bollywoodlife.com/wp-content/uploads/2022/06/Dheeraj-5.png",
+  "BlogContent"   : "Trending TV News Today: Top actress' tantrums on Khatron Ke Khiladi 12; Kundali Bhagya's Shraddha Arya on Dheeraj Dhoopar's exit and more"
 },
 {
   "Title" : " Tiger Shroff, Nawazuddin Siddiqui and Tara Sutaria starrer Heropanti 2 to begin streaming on Amazon Prime Video on May 27, 2022",
@@ -46,11 +46,11 @@ const Api = (props) => {
   "BlogContent"   : "Tiger Shroff, Nawazuddin Siddiqui and Tara Sutaria starrer Heropanti 2 to begin streaming on Amazon Prime Video on May 27, 2022"
 },
 {
-  "Title" : " SCOOP: After Venkatesh and Pooja Hegde, Salman Khan gets Jagapathi Babu on board for Kabhi Eid Kabhi Diwali",
+  "Title" : " Jackie Shroff, Sanjay Dutt, Mithun Chakraborty, Sunny Deol announce new film",
   "CategoryName"  : "Bollywood",
   "PublishedDate" : "Januaury 14 2022",
-  "ImageAsset"    : "https://stat1.bollywoodhungama.in/wp-content/uploads/2022/05/SCOOP-After-Venkatesh-and-Pooja-Hegde-Salman-Khan-gets-Jagapathi-Babu-on-board-for-Kabhi-Eid-Kabhi-Diwali-346x260.jpg",
-  "BlogContent"   : "The Hindi remake of Tamil blockbuster movie ‘Kaithi’ starring Ajay Devg"
+  "ImageAsset"    : "https://images.hindustantimes.com/img/2022/06/16/550x309/sunny_1655391968913_1655391969100.jpg",
+
 },
 {
   "Title" : " Karan Johar hires renowned Marut Sikka and Harsha Kilachand to make food and desserts for his 50th birthday bash",
@@ -70,9 +70,9 @@ const Api = (props) => {
     ])
   return (
     <div>
-      <happy.Provider value={[data,setData]}>
+      <myname.Provider value={[data,setData]}>
         {props.children }
-      </happy.Provider>
+      </myname.Provider>
     </div>
   )
 }

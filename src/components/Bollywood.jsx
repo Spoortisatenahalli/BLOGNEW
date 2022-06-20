@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import { happy } from "./APIs/Api";
+import { myname } from "./APIs/Api";
 const Bollywood = () => {
-  const [data, setData] = useContext(happy);
+  const [data, setData] = useContext(myname);
 
   return (
     <>

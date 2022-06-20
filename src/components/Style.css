@@ -1,7 +1,7 @@
 *{
     color: white;
     background-color: beige;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
     color: black;
 }
 #navBar{
@@ -13,11 +13,11 @@ hr{
     margin:0px
 }
 .btn-outline-success{
-    color: black;
+    color:blue;
     height: 100px;
     width: 100px;
     border-radius: 20%;
-    background-color: burlywood;
+    background-color: lightblue;
 }
 .logo{
     display: flex;

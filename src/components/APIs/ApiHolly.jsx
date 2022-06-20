@@ -5,7 +5,7 @@ const ApiHolly = (props) => {
     {
       "source": {
       "id": null,
-      "name": "As.com"
+      "name": "Az.com"
       },
       "author": "Calum Roche",
       "title": "Johnny Depp v Amber Heard trial live: breaking news and updates, Kate Moss testimony today, 25 May - AS USA",
